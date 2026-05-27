@@ -1,0 +1,18 @@
+{
+  "name": "freeanatomyapp",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": { "node": ">=22" },
+  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
+  "scripts": {
+    "dev": "pnpm --filter @anatomy/web dev",
+    "build": "pnpm --filter @anatomy/web build",
+    "preview": "pnpm --filter @anatomy/web preview",
+    "typecheck": "pnpm --filter @anatomy/web exec tsc -b",
+    "test": "pnpm --filter @anatomy/web test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeappstore-online/anatomy.git"
+  }
+}
