@@ -1,6 +1,0 @@
-{
-  "appId": "anatomy",
-  "applicationRoot": "web",
-  "outputPath": "web/dist",
-  "buildCommand": "pnpm build"
-}
